@@ -1,0 +1,34 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "This bolier plate is for webpack, typescript, eslint, and prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --env dev --mode none",
+    "build": "webpack --env prod --mode production",
+    "start": "npm run build:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HobinLee/webpack-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HobinLee/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/HobinLee/webpack-boilerplate#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.2.6",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
